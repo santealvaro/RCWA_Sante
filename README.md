@@ -34,20 +34,20 @@ The optical response is calculated for normal incidence and TM polarization over
 ```text
 GrALfisika/
 │
-├── src/                    # RCWA modules and auxiliary functions
+├── structural_modules/                    # RCWA modules and auxiliary functions
 │   ├── TE_matrixes.py
 │   ├── TM_matrixes.py
 │   ├── TE_solver.py
 │   ├── TM_solver.py
 │   └── Utils.py
 │
-├── notebooks/              # Jupyter notebooks used for simulations and analysis
+├── test/              # Jupyter notebooks used for simulations and analysis
 │
-├── csv/                    # Input profiles and numerical/experimental results
+├── csv/                    # Input profiles and numerical/experimental results TO BE UPLOADED
 │   ├── Inconel_gratings/
 │   └── results/
 │
-├── figures/                # Generated figures
+├
 │
 ├── LICENSE                 # GNU GPLv3 license
 └── README.md
